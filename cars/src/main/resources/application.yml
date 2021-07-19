@@ -2,6 +2,7 @@ cars:
   ford:
     ingester:
       runCron: '0 * * ? * *' #each minute
+      fileName: classpath:ford-example.xml
 
 spring:
   datasource:
